@@ -1,29 +1,48 @@
 body {
-  margin: 0;
   text-align: center;
+  font-family: "Merriweather", serif;
+  margin: 0;
+  height: 100%;
 }
 
 h1 {
-  margin-top: 0;
-  margin: 0 auto;
+  font-family: "Dancing Script", cursive;
+  font-size: 5em;
+  margin: 25px auto 0 auto;
+  color: #66BFBF;
 }
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
 
 .top-container {
   background-color: #EFFFFD;
   position:relative;
-  padding: 100px;
+  padding-top: 100px;
 }
 
 .middle-container {
-  width: 200px;
-  height: 200px;
-  background-color: red;
+  padding-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%
 }
 
 .bottom-container {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
+  margin-left: 20%;
+  margin-right: 20%
 }
 
 /* .engineer {
@@ -39,5 +58,22 @@ h1 {
 .bottom-cloud {
   position: absolute;
   left: 30%;
-  bottom: 65%;
+  top: 45%;
+}
+
+.mountain-img {
+  position: relative;
+  height: 70%;
+  top: 30%;
+}
+
+.profilepic {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.skill_pic {
+  height: 200px;
+  width: 200px;
 }
